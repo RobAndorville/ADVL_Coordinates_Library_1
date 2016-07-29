@@ -1,5 +1,5 @@
 # ADVL_Coordinates_Library_1
-Library of classes used by ADVL_Coordinates_1 to store coordinate reference system parameters and perform coordinate conversions.
+Library of classes used by the Andorville™ Coordinates application to store coordinate reference system parameters and perform coordinate conversions.
 
 
 - - -
@@ -21,5 +21,7 @@ limitations under the License.
 
 - - -
 
-The ADVL_Coordinates_Library_1 is used by the ADVL_Coordinates_1 application.
-It contains classes to store geodetic and projected coordinate parameters and convert between coordinate systems. The library is designed to be compatible with data from the EPSG geodetic parameter dataset.
+The Andorville™ Coordinates Library is used by the Andorville™ Coordinates application.
+It contains classes used to store geodetic and projected coordinate parameters and to convert between coordinate systems. The library is designed to be compatible with data from the EPSG geodetic parameter dataset.
+This dataset can be found at http://www.epsg.org/EPSGhome.aspx
+

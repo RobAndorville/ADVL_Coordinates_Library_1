@@ -1,5 +1,5 @@
 ﻿'Public Class Coordinates
-'The Coordinates classes are used to geodetic and projected coordinate parameters and convert between coordinate systems.
+'The Coordinates classes are used to store geodetic and projected coordinate parameters and convert between coordinate systems.
 
 'These classes are based on the tables in the EPSG database.
 'Many of the classes correspond to tables in the database.

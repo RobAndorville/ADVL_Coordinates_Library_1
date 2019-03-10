@@ -10899,14 +10899,14 @@ Public Enum FindIndexResults
                     NewDatum.Type = DatumSummary.DatumTypes.Unknown 'TDS_Utilities.Coordinates.clsDatumSummary.EnumDatumType.Unknown
                 Else
                     Select Case datumItem.<Type>.Value
-                        Case "geodetic"
-                            NewDatum.Type = DatumSummary.DatumTypes.Geodetic
-                        Case "vertical"
-                            NewDatum.Type = DatumSummary.DatumTypes.Vertical
-                        Case "engineering"
-                            NewDatum.Type = DatumSummary.DatumTypes.Engineering
-                        Case "image"
-                            NewDatum.Type = DatumSummary.DatumTypes.Image
+                    Case "geodetic", "Geodetic"
+                        NewDatum.Type = DatumSummary.DatumTypes.Geodetic
+                    Case "vertical", "Vertical"
+                        NewDatum.Type = DatumSummary.DatumTypes.Vertical
+                    Case "engineering", "Engineering"
+                        NewDatum.Type = DatumSummary.DatumTypes.Engineering
+                    Case "image", "Image"
+                        NewDatum.Type = DatumSummary.DatumTypes.Image
                         Case Else
                             NewDatum.Type = DatumSummary.DatumTypes.Unknown
                     End Select
